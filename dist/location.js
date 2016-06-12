@@ -78,7 +78,7 @@
 			}
 		}, {
 			key: 'getSearch',
-			value: function getSearch() {
+			value: function getSearch(key) {
 				var val = (0, _parse2.default)(this.search);
 				if (key) {
 					val = val[key];

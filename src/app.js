@@ -29,7 +29,7 @@ class Location {
 		return val	
 	}
 
-	getSearch(){
+	getSearch(key){
 		let val = parse(this.search)
 		if(key){
 			val = val[key]
